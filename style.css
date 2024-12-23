@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.container{
+  background-color: rgb(197, 197, 239);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bill{
+  width: 30%;
+  text-align: center;
+  border: 1px solid darkblue;
+  border-radius: 5px;
+  padding-inline: 20px;
+  padding-block: 50px;
+}
+
+.info{
+  display: flex;
+  justify-content: space-between;
+  height: 38px;
+  margin: 20px;
+}
+
+.payment, .discount{
+ 
+  font-size: 24px;
+  font-weight: 400;
+  padding-block: 12px;
+}
+
+input{
+  width: 50%;
+  border: none;
+  padding: 20px;
+}
+  
+input:focus{
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button{
+  width: 140px;
+  height: 42px;
+  background-color: rgb(144, 62, 144);
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius:2px;
+  border: none;
+}
+
+.output-area{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 36px;
+}
+.reset{
+  width: 100px;
+  padding: 13px;
+ font-size: 14px;
+ font-weight: 600;
+ background-color: rgb(35, 54, 62);
+ color: white;
+}
+
+.get-discount{
+  width: 150px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgb(153, 63, 116);
+  color: white;
+}
